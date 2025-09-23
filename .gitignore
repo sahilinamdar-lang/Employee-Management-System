@@ -1,0 +1,16 @@
+# Maven / Java
+/target/
+/*.war
+*.class
+
+# Eclipse
+/.settings/
+/.metadata
+*.log
+# keep .project/.classpath if you want to preserve Eclipse config; remove them if you don't
+/.classpath
+/.project
+
+# sensitive / local config
+/src/main/resources/db.properties
+# or any local secrets you have
